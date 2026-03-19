@@ -13,7 +13,6 @@ This project proposes a redesigned clinical workflow by integrating fragmented d
 ## Workflow Diagram 
 
 ## Workflow Diagram
-
 ```mermaid
 flowchart LR
 A[Patient Seen in Clinic] --> B[Fragmented Systems]
@@ -24,24 +23,23 @@ E --> F[Clinician Review]
 F --> G[Final Letter]
 G --> H[GP and Patient]
 ```
-
 ## Key concepts 
 
--**Interoperability(FHIR):**Data from multiple healthcare system are consolidated into a unified and structured dataset 
+- **Interoperability(FHIR):** Data from multiple healthcare system are consolidated into a unified and structured dataset 
 
--**AI-assisted documentation:**Structured input is used for generation of AI-assisted letters 
+- **AI-assisted documentation:** Structured input is used for generation of AI-assisted letters 
 
--**Clinical workflow redesign:**This leads to reduction in documentation and administrative burden and prevents duplication 
+- **Clinical workflow redesign:** This leads to reduction in documentation and administrative burden and prevents duplication 
 
 ## Expected Impact 
 
--**Efficiency:**Efficiency is improved by reducing documentation time and faster turnaround time for primary care communication 
+- **Efficiency:** Efficiency is improved by reducing documentation time and faster turnaround time for primary care communication 
 
--**Safety:**Improved clarity of follow up action plans and reduction in omission errors 
+- **Safety:** Improved clarity of follow up action plans and reduction in omission errors 
 
--**Standardisation:**Eduction in variability of structure and function across clinicians 
+- **Standardisation:** Eduction in variability of structure and function across clinicians 
 
--**Scalability:**Standardised frameworks are applicable to broader clinical workflows 
+- **Scalability:** Standardised frameworks are applicable to broader clinical workflows 
 
 ## Why this matters 
 
