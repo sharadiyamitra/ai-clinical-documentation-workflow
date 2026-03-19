@@ -34,15 +34,4 @@ This model supports the shift towards scalable and data-driven healthcare system
 
 ## Workflow Diagram 
 
-## Workflow Diagram
-
-```mermaid
-flowchart LR
-A[Patient Seen in Clinic] --> B[Fragmented Systems]
-B --> C[Interoperability Layer]
-C --> D[Unified Structured Data]
-D --> E[AI Draft Letter]
-E --> F[Clinician Review]
-F --> G[Final Letter]
-G --> H[GP and Patient]
-```
+![Workflow Diagram](clinical_workflow_diagram.PNG)
