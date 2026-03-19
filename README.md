@@ -52,5 +52,15 @@ G --> H
 
 This model supports the shift towards scalable and data-driven healthcare systems and enables AI-assisted clinical decision support. 
 
+## Full Document
 
+[Download the full project document](workflow_design.pdf)
+
+## How to Cite
+
+If you use or adapt this work, please cite:
+- Author: Sharadiya Mitra
+- Title: Designing an Interoperable, AI-Assisted Clinical Documentation Workflow
+- Year: 2026
+- Repository: https://github.com/sharadiyamitra/ai-clinical-documentation-workflow
 
