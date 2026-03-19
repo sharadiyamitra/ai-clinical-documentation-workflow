@@ -34,31 +34,15 @@ This model supports the shift towards scalable and data-driven healthcare system
 
 ## Workflow Diagram 
 
-```mermaid 
+## Workflow Diagram
 
-flowchart LR 
- 
-A[Patient Seen in Clinic] 
- 
-B[Fragmented Systems<br/>Cerner / SystmOne / Labs / Notes] 
- 
-C[Interoperability Layer<br/>(FHIR-based Integration)] 
- 
-D[Unified Structured Data] 
- 
-E[AI-Assisted Letter Generation] 
- 
-F[Clinician Review & Safety Check] 
- 
-G[Final Clinic Letter] 
- 
-H[GP & Patient Receive Letter] 
- 
-A --> B 
-B --> C 
-C --> D 
-D --> E 
-E --> F 
-F --> G 
-G --> H 
-``` 
+```mermaid
+flowchart LR
+A[Patient Seen in Clinic] --> B[Fragmented Systems]
+B --> C[Interoperability Layer]
+C --> D[Unified Structured Data]
+D --> E[AI Draft Letter]
+E --> F[Clinician Review]
+F --> G[Final Letter]
+G --> H[GP and Patient]
+```
