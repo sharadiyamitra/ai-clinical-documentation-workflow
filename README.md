@@ -10,28 +10,42 @@ In current NHS outpatient workflows, clinical data is fragmented across multiple
 
 This project proposes a redesigned clinical workflow by integrating fragmented data using an interoperability layer followed by AI-assisted generation of clinic letters. Thus, clinical information is consolidated across various systems using interoperability standards (such as FHIR) and data is then structured into predefined clinical fields. This structured input is used for the generation of AI-assisted clinic letters and clinicians then review and finalise the letter before final dispatch. This shifts the focus from a manual writing process to a review-based and standardised workflow. 
 
+## Workflow Diagram 
+
+## Workflow Diagram
+
+```mermaid
+flowchart LR
+A[Patient Seen in Clinic] --> B[Fragmented Systems]
+B --> C[Interoperability Layer]
+C --> D[Unified Structured Data]
+D --> E[AI Draft Letter]
+E --> F[Clinician Review]
+F --> G[Final Letter]
+G --> H[GP and Patient]
+```
+
 ## Key concepts 
 
--**Interoperability (FHIR): **Data from multiple healthcare system are consolidated into a unified and structured dataset 
+-**Interoperability(FHIR):**Data from multiple healthcare system are consolidated into a unified and structured dataset 
 
--**AI-assisted documentation: **Structured input is used for generation of AI-assisted letters 
+-**AI-assisted documentation:**Structured input is used for generation of AI-assisted letters 
 
--**Clinical workflow redesign: **This leads to reduction in documentation and administrative burden and prevents duplication 
+-**Clinical workflow redesign:**This leads to reduction in documentation and administrative burden and prevents duplication 
 
 ## Expected Impact 
 
--**Efficiency: ** Efficiency is improved by reducing documentation time and faster turnaround time for primary care communication 
+-**Efficiency:**Efficiency is improved by reducing documentation time and faster turnaround time for primary care communication 
 
--**Safety: ** Improved clarity of follow up action plans and reduction in omission errors 
+-**Safety:**Improved clarity of follow up action plans and reduction in omission errors 
 
--**Standardisation: **reduction in variability of structure and function across clinicians 
+-**Standardisation:**Eduction in variability of structure and function across clinicians 
 
--**Scalability: ** Standardised frameworks are applicable to broader clinical workflows 
+-**Scalability:**Standardised frameworks are applicable to broader clinical workflows 
 
 ## Why this matters 
 
 This model supports the shift towards scalable and data-driven healthcare systems and enables AI-assisted clinical decision support. 
 
-## Workflow Diagram 
 
-![Workflow Diagram](clinical_workflow_diagram.PNG)
+
