@@ -10,8 +10,6 @@ In current NHS outpatient workflows, clinical data is fragmented across multiple
 
 This project proposes a redesigned clinical workflow by integrating fragmented data using an interoperability layer followed by AI-assisted generation of clinic letters. Thus, clinical information is consolidated across various systems using interoperability standards (such as FHIR) and data is then structured into predefined clinical fields. This structured input is used for the generation of AI-assisted clinic letters and clinicians then review and finalise the letter before final dispatch. This shifts the focus from a manual writing process to a review-based and standardised workflow. 
 
-## Workflow Diagram 
-
 ## Workflow Diagram
 ```mermaid
 flowchart LR
