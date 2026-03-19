@@ -12,14 +12,23 @@ This project proposes a redesigned clinical workflow by integrating fragmented d
 
 ## Workflow Diagram
 ```mermaid
-flowchart LR
-A[Patient Seen in Clinic] --> B[Fragmented Systems]
-B --> C[Interoperability Layer]
-C --> D[Unified Structured Data]
-D --> E[AI Draft Letter]
-E --> F[Clinician Review]
-F --> G[Final Letter]
-G --> H[GP and Patient]
+flowchart TD
+A[Patient Seen in Clinic]
+B[Fragmented Systems<br/>Cerner / SystmOne / Labs / Notes]
+C[Interoperability Layer<br/>(FHIR-based Integration)]
+D[Unified Structured Data]
+E[AI Draft Letter Generation]
+F[Clinician Review & Safety Check]
+G[Final Letter]
+H[Sent to GP and Patient]
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+G --> H
 ```
 ## Key concepts 
 
