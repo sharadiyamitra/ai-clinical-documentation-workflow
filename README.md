@@ -46,7 +46,14 @@ G --> H
 
 - **Standardisation:** Eduction in variability of structure and function across clinicians 
 
-- **Scalability:** Standardised frameworks are applicable to broader clinical workflows 
+- **Scalability:** Standardised frameworks are applicable to broader clinical workflows
+
+## Governance & Safety Considerations
+
+- AI-generated documentation must remain clinician-reviewed prior to final use
+- Data used for AI input must be derived from structured and validated clinical sources
+- Interoperability systems must ensure data accuracy and consistency across sources
+- Workflow design should prioritise patient safety, data integrity, and clinician oversight
 
 ## Why this matters 
 
